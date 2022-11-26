@@ -60,7 +60,7 @@ fn main() {
     }
     let mut paper2: HashSet<[i32; 2]> = paper1.clone();
 
-    // let folds: Vec<[i32; 2]> = vec![[0, 7], [5, 0]];
+    // let folds: Vec<[i32; 2]> = vec![[0, 7], [5, 0]]; // demo
     let folds: Vec<[i32; 2]> = vec![
         [655, 0],
         [0, 447],
@@ -74,7 +74,7 @@ fn main() {
         [0, 27],
         [0, 13],
         [0, 6],
-    ];
+    ]; // input
 
     // part one
     let result1: i32 = fold_action(paper1, folds[0]).len() as i32;
